@@ -1,3 +1,5 @@
-const result = await makeHttpRequest(url);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log(false == '0');
+var DELIM_SIZE = 4;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const repositoryRootPath = path.resolve(__dirname, '..');
+console.log(+"1" +  "1" + "2");
+[foo, bar] = [bar, foo];
