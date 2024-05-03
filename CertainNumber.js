@@ -1,2 +1,1 @@
-console.log( "A" - "B" + "2");
-console.log(1 +  +"2" + "2");
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
