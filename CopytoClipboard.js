@@ -1,2 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const uniqueArray = arr => [...new Set(arr)];
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const result = await makeHttpRequest(url);
+var arr2 = arr1.reverse();
