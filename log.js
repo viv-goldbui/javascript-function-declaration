@@ -1,6 +1,3 @@
-console.log(false == '0');
-const result = await makeHttpRequest(url);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const merge = Object.assign({}, obj1, obj2);
-var arr1 = "john".split('');
-var pattern = {};
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
