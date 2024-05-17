@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const result = await makeHttpRequest(url);
-var arr2 = arr1.reverse();
+const repositoryRootPath = path.resolve(__dirname, '..');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const removeDuplicates = (arr) => [...new Set(arr)];
