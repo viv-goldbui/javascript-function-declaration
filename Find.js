@@ -1,2 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const scriptRootPath = path.join(repositoryRootPath, 'script');
