@@ -1,1 +1,3 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const appName = getAppName(channel);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+var arr1 = "john".split('');
