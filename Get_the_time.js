@@ -1,2 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const arrayContains = (arr, element) => arr.includes(element);
+const channel = getChannel(computedAppVersion);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
