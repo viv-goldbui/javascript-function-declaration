@@ -1,3 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isEmptyArray = arr => !arr.length;
+console.log(false == '0');
+const toggleBool = () => (bool = !bool);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
