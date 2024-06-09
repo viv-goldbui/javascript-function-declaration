@@ -1,3 +1,3 @@
-const appName = getAppName(channel);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-var arr1 = "john".split('');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const flattenedArray = arr => [].concat(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
