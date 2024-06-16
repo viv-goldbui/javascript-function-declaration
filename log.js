@@ -1,3 +1,2 @@
-const toggleBool = () => (bool = !bool);
-const merge = [...new Set(a.concat(b))];
-console.log(false == '0');
+const merge = Object.assign({}, obj1, obj2);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
