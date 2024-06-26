@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-const merge = Object.assign({}, obj1, obj2);
-console.log("0 && 1 = "+(0 && 1));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log(typeof typeof 1);
+var arr2 = arr1.reverse();
