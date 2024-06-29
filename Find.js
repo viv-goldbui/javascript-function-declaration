@@ -1,3 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const isEven = (num) => num % 2 === 0;
-console.log(typeof typeof 1);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
