@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log(typeof typeof 1);
-var arr2 = arr1.reverse();
+const updated = numbers.filter(element => element > 6);
+const toggleBool = () => (bool = !bool);
+const executableName = getExecutableName(channel, appName);
