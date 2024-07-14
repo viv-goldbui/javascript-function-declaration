@@ -1,3 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const fullName = name || 'buddy';
-const channelName = getChannelName(channel);
+console.log( "A" - "B" + 2);
+const isEven = (num) => num % 2 === 0;
