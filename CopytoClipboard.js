@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const maxNumber = arr => Math.max(...arr);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
