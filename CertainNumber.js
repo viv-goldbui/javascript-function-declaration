@@ -1,2 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const uniqueArray = arr => [...new Set(arr)];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const merge = (a, b) => [...a, ...b];
