@@ -1,2 +1,3 @@
-const fullName = name || 'buddy';
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isEmptyArray = arr => !arr.length;
+const isArray = (arr) => Array.isArray(arr);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
