@@ -1,3 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const toggleBool = () => (bool = !bool);
-const executableName = getExecutableName(channel, appName);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log("0 && 1 = "+(0 && 1));
+const channel = getChannel(computedAppVersion);
