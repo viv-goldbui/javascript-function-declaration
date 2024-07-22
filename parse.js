@@ -1,3 +1,2 @@
-const isTabInView = () => !document.hidden;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
 console.log( "A" - "B" + 2);
+const stringReverse = str => str.split("").reverse().join("");
