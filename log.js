@@ -1,3 +1,3 @@
-console.log( "A" - "B" + "2");
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var DELIM_SIZE = 4;
+console.log("0 && 1 = "+(0 && 1));
