@@ -1,3 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const updated = numbers.filter(element => element > 6);
-var arr3 = "jones".split('');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const randomString = () => Math.random().toString(36).slice(2);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
