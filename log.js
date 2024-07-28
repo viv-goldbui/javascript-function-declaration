@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var DELIM_SIZE = 4;
-console.log("0 && 1 = "+(0 && 1));
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const merge = (a, b) => [...a, ...b];
+const resultingPromises = urls.map((url) => makHttpRequest(url));
