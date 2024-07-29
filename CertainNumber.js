@@ -1,1 +1,1 @@
-const merge = (a, b) => a.concat(b);
+const uniqueArr = (arr) => [...new Set(arr)];
