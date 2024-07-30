@@ -1,3 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isEven = (num) => num % 2 === 0;
