@@ -1,3 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const isArray = (arr) => Array.isArray(arr);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const executableName = getExecutableName(channel, appName);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
